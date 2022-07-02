@@ -8,7 +8,6 @@
         "start": "next start -H 0.0.0.0 -p ${PORT:-8080}",
         "lint": "next lint",
         "export": "npm run build && next_export -o _static"
-
     },
     "dependencies": {
         "axios": "^0.27.2",
