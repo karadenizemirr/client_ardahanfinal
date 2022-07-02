@@ -45,7 +45,7 @@ export default function Home({ comments }) {
           </div>
           <div>
             
-            <Image src="/images/header.png" width={1200} height={1200} priority="false" />
+            <Image src="/images/header.png" width={1200} height={1200} priority="false" alt='Ardahan Final Özel Öğretim Kursu' />
             
           </div>
         </header>
@@ -188,7 +188,6 @@ export default function Home({ comments }) {
     </Layout>
   )
 }
-
 export const getStaticProps = async () => {
   try {
 

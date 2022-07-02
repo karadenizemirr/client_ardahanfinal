@@ -7,7 +7,6 @@ import Head from 'next/head';
 import Image from 'next/image';
 
 const Index = ({ posts, error, ...props }) => {
-    console.log(posts)
     return (
         <Layout>
             <Head>

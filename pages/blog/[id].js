@@ -16,7 +16,7 @@ const Detail = ({post}) => {
 
             <div className="container mx-auto">
                 <div className="postImage flex justify-center mt-10 mb-10">
-                   <Image width={1200} height={640} src={BASE_URL + post.data.attributes.image.data[0].attributes.url} />
+                   <Image width={1200} height={640} src={BASE_URL + post.data.attributes.image.data[0].attributes.url} alt="" />
                 </div>
                 <div className="postTitle text-center">
                     <h1 className='text-xl font-poppinsBlack tracking-widest'>
