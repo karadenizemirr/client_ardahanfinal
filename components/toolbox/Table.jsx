@@ -27,11 +27,11 @@ const Table = ({DATA, COLUMNS, TITLE}) => {
             <div className="overflow-x-auto font-poppinsLight ">
                 <table className="w-full text-sm text-center border-2 border-black" {...getTableProps()} >
                     <thead className="text-sm text-white uppercase  bg-primary border-2 border-black">
-                    {headerGroups.map(headerGroup => (
-                        <tr {...headerGroup.getHeaderGroupProps()}>
+                    {headerGroups.map((headerGroup,index) => (
+                        <tr {...headerGroup.getHeaderGroupProps()} key={index}>
 
-                            {headerGroup.headers.map(column => (
-                                <th className="px-6 py-3 "
+                            {headerGroup.headers.map((column,index) => (
+                                <th className="px-6 py-3 " key={index}
                                     {...column.getHeaderProps(column.getSortByToggleProps())}
                                 >
                                     {column.render('Header')}
@@ -46,11 +46,11 @@ const Table = ({DATA, COLUMNS, TITLE}) => {
                     ))}
                     </thead>
                     <tbody className="border-2 border-black" {...getTableBodyProps()}>
-                    {rows.map(row => {
+                    {rows.map((row,index) => {
                         prepareRow(row)
                         return (
 
-                            <tr {...row.getRowProps()} className="bg-gray-50 border-b text-black border-2 border-black" >
+                            <tr {...row.getRowProps()} className="bg-gray-50 border-b text-black border-2 border-black" key={index} >
 
                                 {row.cells.map(cell => {
                                     return (

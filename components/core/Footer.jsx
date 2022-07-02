@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="bg-light p-10 mt-20" >
             <div className="container mx-auto grid lg:grid-cols-3 gap-10">
                 <div className="col1 flex justify-center">
-                    <Image src="/logo.png" priority="false" width={95} height={90} />
+                    <Image src="/logo.png" priority="false" width={95} height={90} alt=""/>
                 </div>
                 <div className="col2 text-center flex flex-col justify-center gap-4">
                     <h1 className="text-xl text-primary font-poppinsBold" >
@@ -24,12 +24,8 @@ const Footer = () => {
                 </div>
             </div>
             <div className="text-sm text-center mt-5 flex flex-col gap-3" >
-                <p>
-                    @2022 Ardahan Final Özel Öğretim Kursu
-                </p>
-                <p>
-                    Tüm hakları Ardahan Final Özel Öğretim Kursu'na aittir.
-                </p>
+                <p>@2022 Ardahan Final Özel Öğretim Kursu</p>
+                <p>Tüm hakları Ardahan Final Özel Öğretim Kursu&apos;na aittir.</p>
             </div>
         </div>
     )

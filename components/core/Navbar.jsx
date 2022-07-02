@@ -2,6 +2,8 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { menuTypes } from '../types/menuTypes'
 import {FaBars} from 'react-icons/fa'
+import Image from 'next/image'
+
 const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
@@ -11,7 +13,7 @@ const Navbar = () => {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           
             <Link href="/" className='text-sm font-poppinsRegular tracking-wide leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-black'>
-              <a><img className='w-20' src="/logo.png" alt="" /></a>
+              <a><Image className='w-20' src="/logo.png" width={75} height={70} alt="" /></a>
             </Link>
             <button
               className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"

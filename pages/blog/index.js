@@ -4,6 +4,7 @@ import { BASE_TITLE, BASE_URL } from '../../lib/_env'
 import ReactTextMoreLess from 'react-text-more-less';
 import Link from 'next/link';
 import Head from 'next/head';
+import Image from 'next/image';
 
 const Index = ({ posts, error, ...props }) => {
     console.log(posts)
@@ -26,7 +27,7 @@ const Index = ({ posts, error, ...props }) => {
                             ' key={index} >
                                 <div className="image cursor-pointer">
                                     <Link href="/" >
-                                    <img src={`${BASE_URL + item.attributes.image.data[0].attributes.url}`} alt="" />
+                                    <Image width={350} height={300} src={`${BASE_URL + item.attributes.image.data[0].attributes.url}`} alt="" />
                                     </Link>
                                 </div>
                                 <div className="title">

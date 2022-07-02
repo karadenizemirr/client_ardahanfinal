@@ -25,7 +25,7 @@ export default function Home({ comments }) {
             </div>
             <div className="content">
               <h2 className='font-poppinsLight' >
-                Türkiyenin eğitim markası Final Eğitim Kurumlarının, 42 yıllık tecrübesini Ardahan'da göstermekten gurur duyuyoruz.
+                Türkiyenin eğitim markası Final Eğitim Kurumlarının, 42 yıllık tecrübesini Ardahan&apos;da göstermekten gurur duyuyoruz.
               </h2>
             </div>
             <div className="main-footer">
@@ -35,10 +35,10 @@ export default function Home({ comments }) {
               </Link>
               <div className="social">
               <div className="icons flex justify-center mt-5 gap-5">
-                        <img className='w-6' src="/images/icons/facebook.svg" alt="" />
-                        <img className='w-6' src="/images/icons/twitter.svg" alt="" />
-                        <img className='w-6' src="/images/icons/whatsapp.svg" alt="" />
-                        <img className='w-6' src="/images/icons/linkedn.svg" alt="" />
+                        <Image width={30} height={100} src="/images/icons/facebook.svg" alt="" />
+                        <Image width={30} height={100} src="/images/icons/twitter.svg" alt="" />
+                        <Image width={30} height={100} src="/images/icons/whatsapp.svg" alt="" />
+                        <Image width={30} height={100} src="/images/icons/linkedn.svg" alt="" />
                     </div>
               </div>
             </div>
@@ -53,7 +53,7 @@ export default function Home({ comments }) {
           <div className="card mt-10 lg:w-1/6 p-3 bg-light rounded-lg shadow-md text-center hover:bg-secondary transition-all delay-150">
             <div className="title flex flex-col">
               <span className="m-auto">
-                <img className="w-16 h-16" src="images/icons/ruler.svg" alt="" />
+                <Image width={60} height={60} src="/images/icons/ruler.svg" alt="" />
               </span>
               <h1 className="font-bold text-lg mt-5" >Soru Çözümleri</h1>
             </div>
@@ -67,7 +67,7 @@ export default function Home({ comments }) {
           <div className="card mt-10 lg:w-1/6 p-3 bg-light rounded-lg shadow-md text-center hover:bg-secondary transition-all delay-150">
             <div className="title flex flex-col">
               <span className="m-auto">
-                <img className="w-16 h-16" src="images/icons/book.svg" alt="" />
+                <Image width={60} height={60} src="/images/icons/book.svg" alt="" />
               </span>
               <h1 className="font-bold text-lg mt-5" >Kaynaklar</h1>
             </div>
@@ -80,7 +80,7 @@ export default function Home({ comments }) {
           <div className="card mt-10 lg:w-1/6 p-3 bg-light rounded-lg shadow-md text-center hover:bg-secondary transition-all delay-150">
             <div className="title flex flex-col">
               <span className="m-auto">
-                <img className="w-16 h-16" src="images/icons/teacher.svg" alt="" />
+                <Image width={60} height={60} src="/images/icons/teacher.svg" alt="" />
               </span>
               <h1 className="font-bold text-lg mt-5" >Deneyimli Kadro</h1>
             </div>
@@ -93,20 +93,20 @@ export default function Home({ comments }) {
           <div className="card mt-10 lg:w-1/6 p-3 bg-light rounded-lg shadow-md text-center hover:bg-secondary transition-all delay-150">
             <div className="title flex flex-col">
               <span className="m-auto">
-                <img className="w-16 h-16" src="images/icons/board.svg" alt="" />
+                <Image width={60} height={60} src="/images/icons/board.svg" alt="" />
               </span>
               <h1 className="font-bold text-lg mt-5" >Geniş Sınıflar</h1>
             </div>
             <div className="main mt-4">
               <p>
-                15'er kışılık sınıflarımıda öğrencilerimizin tüm dikkati derslerde.
+                15&apos;er kışılık sınıflarımıda öğrencilerimizin tüm dikkati derslerde.
               </p>
             </div>
           </div>
           <div className="card mt-10 lg:w-1/6 p-3 bg-light rounded-lg shadow-md text-center hover:bg-secondary transition-all delay-150">
             <div className="title flex flex-col">
               <span className="m-auto">
-                <img className="w-16 h-16" src="images/icons/online-book.svg" alt="" />
+                <Image width={60} height={60} src="/images/icons/online-book.svg" alt="" />
               </span>
               <h1 className="font-bold text-lg mt-5" >Online Kaynaklar</h1>
             </div>
@@ -127,7 +127,7 @@ export default function Home({ comments }) {
                 <p
                   className="leading-10 mr-10 ml-10"
                 >
-                  Türkiye'nin eğitim markası Final Eğitim Kurumlarının, 41 yıllık tecrübesini
+                  Türkiye&apos;nin eğitim markası Final Eğitim Kurumlarının, 41 yıllık tecrübesini
                   Ardahan ilimizde göstermekten gurur duyuyoruz.
                   <br />
                   Öğrencilerimizin çok daha iyi şartlarda yetişmesi için elimizden geleni yapıyoruz.
@@ -142,7 +142,7 @@ export default function Home({ comments }) {
                   Her dersten ve her sınıftan öğrencilerimiz için soru çözümleri ve deneme sınavları yapmaktayız.
                   Öğrencilerimizin eksik oldukları konuları tamamlamaktayız.
                   <br />
-                  Öğrencilerimizin çok daha iyi konuları kavraması için "Final Yayınlarına" ait kaynaklarla
+                  Öğrencilerimizin çok daha iyi konuları kavraması için &quot;Final Yayınlarına&quot; ait kaynaklarla
                   yaprak testlerle ve ihtiyaç dahilinde ekstra kaynaklarla öğrencilerimizin gelişimlerini sağlıyoruz.
                   <br />
                   <span className="text-primary font-poppinsBold text-lg leading-5 tracking-widest " >Hiçbir başarı tesadüf değildir...</span>
