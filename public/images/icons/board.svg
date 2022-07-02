@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+<desc>Created with Fabric.js 1.7.22</desc>
+<defs>
+</defs>
+<g transform="translate(128 128) scale(0.72 0.72)" style="">
+	<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(-175.05 -175.05000000000004) scale(3.89 3.89)" >
+	<path d="M 85.025 65.304 H 4.974 c -0.552 0 -1 -0.447 -1 -1 V 7.529 c 0 -0.552 0.448 -1 1 -1 h 80.051 c 0.553 0 1 0.448 1 1 v 56.775 C 86.025 64.856 85.578 65.304 85.025 65.304 z M 5.974 63.304 h 78.051 V 8.529 H 5.974 V 63.304 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+	<path d="M 87.815 8.529 H 2.185 c -0.552 0 -1 -0.448 -1 -1 V 1 c 0 -0.552 0.448 -1 1 -1 h 85.631 c 0.553 0 1 0.448 1 1 v 6.529 C 88.815 8.081 88.368 8.529 87.815 8.529 z M 3.185 6.529 h 83.631 V 2 H 3.185 V 6.529 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+	<path d="M 87.815 71.832 H 2.185 c -0.552 0 -1 -0.447 -1 -1 v -6.528 c 0 -0.553 0.448 -1 1 -1 h 85.631 c 0.553 0 1 0.447 1 1 v 6.528 C 88.815 71.385 88.368 71.832 87.815 71.832 z M 3.185 69.832 h 83.631 v -4.528 H 3.185 V 69.832 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+	<path d="M 45 82.052 c -0.552 0 -1 -0.447 -1 -1 v -10.22 c 0 -0.553 0.448 -1 1 -1 s 1 0.447 1 1 v 10.22 C 46 81.604 45.552 82.052 45 82.052 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+	<path d="M 45 90 c -2.743 0 -4.974 -2.231 -4.974 -4.975 c 0 -2.742 2.231 -4.974 4.974 -4.974 c 2.743 0 4.975 2.231 4.975 4.974 C 49.975 87.769 47.743 90 45 90 z M 45 82.052 c -1.64 0 -2.974 1.334 -2.974 2.974 C 42.026 86.666 43.36 88 45 88 c 1.641 0 2.975 -1.334 2.975 -2.975 C 47.975 83.386 46.641 82.052 45 82.052 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+</g>
+</g>
+</svg>
